@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fox Doceria: doces artesanais feitos com carinho para adoçar seu dia."
+    />
+    <title>Fox Doceria | Doces artesanais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" aria-label="Cabeçalho principal">
+      <nav class="navbar" aria-label="Menu principal">
+        <a class="brand" href="#inicio" aria-label="Fox Doceria - Início">
+          <img
+            src="imagens/WhatsApp Image 2026-05-31 at 11.59.10.jpeg"
+            alt="Logo Fox Doceria"
+          />
+          <span>Fox Doceria</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="main-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#destaques">Destaques da Semana</a></li>
+          <li><a href="#produtos">Nossos Produtos</a></li>
+          <li><a href="#onde-encontrar">Onde Encontrar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="imagens/hero-doces.jpg"
+          alt="Mesa com doces artesanais variados"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-logo-badge" aria-hidden="true">
+          <img
+            src="imagens/WhatsApp Image 2026-05-31 at 11.59.10.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="hero-content page-arrival">
+          <p class="eyebrow">Doceria artesanal</p>
+          <h1 id="hero-title">Doces feitos com carinho para adoçar seu dia!</h1>
+          <p>
+            Aqui cada doce é preparado com calma, capricho e aquele cuidado de
+            quem quer entregar um pedacinho de aconchego em cada mordida.
+          </p>
+          <a class="primary-button" href="#produtos">Conhecer produtos</a>
+        </div>
+        <a class="scroll-cue" href="#destaques" aria-label="Rolar para a próxima seção">
+          <span>Role para ver os doces</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="section highlight-band reveal" id="destaques" aria-labelledby="destaques-title">
+        <div class="section-heading">
+          <p class="eyebrow">Destaque da semana</p>
+          <h2 id="destaques-title">Aquele queridinho que sempre ganha um sorriso</h2>
+        </div>
+
+        <article class="featured-card reveal-soft">
+          <img
+            src="imagens/produto-torta-limao-chantili.jpg"
+            alt="Torta de limão com chantili"
+          />
+          <div class="featured-content">
+            <p class="tag">Mais pedida</p>
+            <h3>Torta de Limão com Chantili</h3>
+            <p class="price">R$ 4,50</p>
+            <p>
+              Leve, cremosa e com o azedinho na medida certa. É feita para quem
+              gosta de uma sobremesa delicada, bonita e cheia de frescor.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal" id="produtos" aria-labelledby="produtos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Nossos produtos</p>
+          <h2 id="produtos-title">Escolha com os olhos, aproveite com calma</h2>
+          <p>
+            Uma seleção simples e caprichada para adoçar a rotina, o intervalo
+            ou aquele momento em que dá vontade de se presentear.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal-soft">
+            <img
+              src="imagens/produto-torta-limao.jpg"
+              alt="Torta de limão sem chantili"
+            />
+            <div>
+              <h3>Torta de Limão</h3>
+              <p class="price">R$ 4,00</p>
+              <p>Creme de limão suave, base leve e uma doçura equilibrada para refrescar o dia.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal-soft">
+            <img
+              src="imagens/produto-torta-limao-chantili.jpg"
+              alt="Torta de limão com chantili"
+            />
+            <div>
+              <h3>Torta de Limão com Chantili</h3>
+              <p class="price">R$ 4,50</p>
+              <p>A versão mais cremosa, com chantili macio e acabamento feito com carinho.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal-soft">
+            <img src="imagens/produto-bolo-chocolate.jpg" alt="Bolo de chocolate" />
+            <div>
+              <h3>Bolo de Chocolate</h3>
+              <p class="price">R$ 5,00</p>
+              <p>Massa fofinha, cobertura brilhante e sabor de chocolate para abraçar a pausa.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal-soft">
+            <img src="imagens/produto-bolo-cenoura.jpg" alt="Bolo de cenoura" />
+            <div>
+              <h3>Bolo de Cenoura</h3>
+              <p class="price">R$ 5,00</p>
+              <p>Um clássico de casa, com massa macia e aquela cobertura de chocolate que combina com tudo.</p>
+            </div>
+          </article>
+
+          <article class="product-card reveal-soft">
+            <img src="imagens/produto-brownie.jpg" alt="Brownie artesanal" />
+            <div>
+              <h3>Brownie</h3>
+              <p class="price">R$ 4,00</p>
+              <p>Casquinha fina, interior macio e um sabor intenso para quem ama chocolate de verdade.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section reveal" aria-labelledby="sobre-title">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Sobre os produtos</p>
+          <h2 id="sobre-title">Um preparo pensado nos pequenos detalhes</h2>
+          <p>
+            A Fox Doceria acredita que doce bom tem sabor, textura e cuidado.
+            Por isso, cada receita é feita para chegar bonita, gostosa e com
+            aquele toque de feito à mão.
+          </p>
+        </div>
+        <div class="quality-list" aria-label="Qualidades dos produtos">
+          <div class="reveal-soft">
+            <strong>Ingredientes escolhidos com atenção</strong>
+            <p>As receitas são preparadas com ingredientes selecionados para manter sabor e qualidade.</p>
+          </div>
+          <div class="reveal-soft">
+            <strong>Capricho em cada etapa</strong>
+            <p>Do preparo à apresentação, tudo é feito com calma para entregar uma experiência gostosa.</p>
+          </div>
+          <div class="reveal-soft">
+            <strong>Novidades quando pinta inspiração</strong>
+            <p>O cardápio pode ganhar novos sabores ao longo do tempo, sempre seguindo a procura da semana.</p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section location-section reveal"
+        id="onde-encontrar"
+        aria-labelledby="onde-title"
+      >
+        <div class="location-content">
+          <p class="eyebrow">Onde encontrar</p>
+          <h2 id="onde-title">Centro Educacional MAARA</h2>
+          <p>
+            Passe para escolher seu doce com calma. Estamos no Centro
+            Educacional MAARA às quintas e sextas-feiras, levando opções
+            fresquinhas para deixar o dia mais gostoso.
+          </p>
+          <dl class="info-list">
+            <div class="reveal-soft">
+              <dt>Local de venda</dt>
+              <dd>Centro Educacional MAARA</dd>
+            </div>
+            <div class="reveal-soft">
+              <dt>Dias de venda</dt>
+              <dd>Quinta-feira e Sexta-feira</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img
+          src="imagens/WhatsApp Image 2026-05-31 at 11.59.10.jpeg"
+          alt=""
+          aria-hidden="true"
+        />
+        <strong>Fox Doceria</strong>
+      </div>
+      <p>Feito com carinho para adoçar seus momentos, um doce de cada vez.</p>
+      <ul class="social-links" aria-label="Redes sociais">
+        <li><a href="#" aria-label="Instagram fictício">IG</a></li>
+        <li><a href="#" aria-label="WhatsApp fictício">WA</a></li>
+        <li><a href="#" aria-label="Facebook fictício">FB</a></li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
